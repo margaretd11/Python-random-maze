@@ -4,7 +4,7 @@ import pygame
 
 class Draw(object):
     screenSize = width, height = 640, 480
-    screen = pygame.display.set_mode(screenSize)
+#    screen = pygame.display.set_mode(screenSize)
     surface = pygame.display.get_surface()
 
     origin = originX, originY = 50, 50

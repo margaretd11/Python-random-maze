@@ -27,7 +27,7 @@ def redrawAll():
 class Struct(object): pass
 data = Struct()
 
-doorMap = make3DList(20, 20, 2)
+doorMap = make3DList(20, 20, 3, 0)
 doorMap[0][0][0], doorMap[0][0][1] = 1, 1
 
 init(data, doorMap)
