@@ -3,14 +3,14 @@
 import sys
 import pygame
 
+pygame.init()
+screen = pygame.display.set_mode((640,480))
+
 from colors import *
-from drawClass import *
 import background
 import outerWall
 import allWalls
 from lib.list import *
-
-pygame.init()
 
 
 def init(data, doorMap):
@@ -27,7 +27,7 @@ def redrawAll():
 class Struct(object): pass
 data = Struct()
 
-doorMap = make3DList(20, 20, 2)
+doorMap = make3DList(20, 20, 3, 0)
 doorMap[0][0][0], doorMap[0][0][1] = 1, 1
 
 init(data, doorMap)
