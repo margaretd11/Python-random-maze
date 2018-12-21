@@ -15,6 +15,7 @@ import outerWall
 import allWalls
 import dot
 import maze
+import spanning
 
 
 def init(data, doorMap):
@@ -36,7 +37,8 @@ def redrawAll():
 class Struct(object): pass
 data = Struct()
 
-doorMap = maze.buildMaze2()
+# doorMap = maze.buildMaze2()
+doorMap = spanning.createMaze()
 
 init(data, doorMap)
 redrawAll()
