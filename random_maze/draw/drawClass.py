@@ -10,6 +10,8 @@ class Draw(object):
     origin = originX, originY = 50, 50
     mazeWidth, mazeHeight = 400, 400
     wallLength = 20
+    numRows = mazeHeight // wallLength
+    numCols = mazeWidth // wallLength
 
     # this is newly added
     color = goodBLUE

@@ -20,6 +20,12 @@ class Dot(drawClass.Draw):
         pygame.draw.circle(self.surface, RED, (self.x, self.y), 5, 0)
 
     # Controller
+    def setPos(self, x, y):
+        self.x = x
+        self.col = (x-self.originX) // self.wallLength
+        self.y = y
+        self.row = (y-self.originY) // self.wallLength
+
     def outbound(self, dir):
         if(dir == 'l'):
             return self.x == self.originX + self.wallLength // 2
