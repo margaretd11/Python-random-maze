@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/walk" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/spanning" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/play" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (random_maze)" jdkType="Python SDK" />
